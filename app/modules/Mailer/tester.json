@@ -1,0 +1,12 @@
+{
+  "name": "tester",
+  "module": "mail",
+  "action": "setup",
+  "options": {
+    "host": "smtp.sendgrid.net",
+    "username": "apikey",
+    "password": "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",
+    "port": 465,
+    "useSSL": true
+  }
+}

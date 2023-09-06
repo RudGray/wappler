@@ -1,0 +1,47 @@
+{
+  "name": "commapp",
+  "module": "auth",
+  "action": "provider",
+  "options": {
+    "secret": "lFhDSxEeJqU5f8N",
+    "provider": "Database",
+    "connection": "db",
+    "passwordVerify": true,
+    "users": {
+      "table": "user",
+      "identity": "user_id",
+      "username": "email",
+      "password": "password"
+    },
+    "permissions": {
+      "admin": {
+        "table": "role",
+        "identity": "user_id",
+        "conditions": [
+          {
+            "column": "role",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      },
+      "member": {
+        "table": "role",
+        "identity": "user_id",
+        "conditions": [
+          {
+            "column": "role",
+            "operator": "=",
+            "value": "M"
+          }
+        ]
+      }
+    }
+  },
+  "meta": [
+    {
+      "name": "identity",
+      "type": "text"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "db",
+  "module": "dbconnector",
+  "action": "connect",
+  "options": {
+    "client": "sqlite3",
+    "connection": {
+      "filename": "/communityapp_db.sqlite3"
+    },
+    "meta": {}
+  },
+  "actionFilePath": "file:///C:/Users/Home/OneDrive/Wapper/app/modules/connections/db.json",
+  "serverType": "node",
+  "fileName": "db.json"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "api_sendgrid",
+  "module": "api",
+  "action": "send",
+  "options": {
+    "method": "POST",
+    "url": "https://api.sendgrid.com/v3/mail/send",
+    "dataType": "json",
+    "data": {
+      "personalizations": [
+        {
+          "to": [
+            {
+              "email": "rud.gray@gmail.com"
+            }
+          ]
+        }
+      ],
+      "from": {
+        "email": "rudy.gratay.auditeur@lecnam.net"
+      },
+      "subject": "Sending with SendGrid is Fun",
+      "content": [
+        {
+          "type": "text/plain",
+          "value": "and easy to do anywhere, even with cURL"
+        }
+      ],
+      "template_id": "d-73a754c8afd74cf8961fb1c6727ae346"
+    },
+    "headers": {
+      "authorization": "Bearer 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"
+    }
+  },
+  "output": true
+}

@@ -1,0 +1,16 @@
+{
+  "name": "wappler_sendgrid_api_key",
+  "module": "auth",
+  "action": "provider",
+  "options": {
+    "secret": "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",
+    "provider": "Static",
+    "connection": "db"
+  },
+  "meta": [
+    {
+      "name": "identity",
+      "type": "text"
+    }
+  ]
+}

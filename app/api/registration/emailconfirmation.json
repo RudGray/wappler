@@ -1,0 +1,13 @@
+{
+  "name": "",
+  "module": "mail",
+  "action": "send",
+  "options": {
+    "instance": "tester",
+    "subject": "Email confimation",
+    "fromEmail": "rud.gray@gmail.com",
+    "fromName": "bibi",
+    "toEmail": "rudy.gratay.auditeur@lecnam.net",
+    "body": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Confirmation Email</title>\n    <style>\n        .email-container {\n            max-width: 600px;\n            margin: 20px auto;\n            font-family: Arial, sans-serif;\n        }\n        .button {\n            background-color: #007BFF;\n            border: none;\n            color: white;\n            padding: 10px 20px;\n            text-align: center;\n            text-decoration: none;\n            display: inline-block;\n            font-size: 16px;\n            margin: 20px 0;\n            cursor: pointer;\n            border-radius: 5px;\n            text-transform: uppercase;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"email-container\">\n        <h2>Confirmation d'inscription</h2>\n        <p>Bonjour,</p>\n        <p>Merci pour votre inscription. Veuillez cliquer sur le bouton ci-dessous pour confirmer votre adresse e-mail et activer votre compte.</p>\n        <a href=\"https://www.vegedex.fr\" target=\"_blank\" class=\"button\">Valider</a>\n        <p>Si vous n'avez pas demandé cette inscription, veuillez ignorer cet e-mail.</p>\n        <p>Cordialement,</p>\n        <p>L'équipe de votre site</p>\n    </div>\n</body>\n</html>\n"
+  }
+}
